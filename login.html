@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+</head>
+<style>
+    #background-img {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+   .parent{
+            border: 1.5px solid black;
+            border-radius: 6px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top:0px;
+            align-items: center;
+            width:3in;
+            height:100%;
+            font-size: 2rem;
+        }
+
+        #span1{
+          padding-left:50px;
+          padding-right:50px;
+          padding-top: 5px;
+          padding-bottom: 5px;
+          font-size: 1.5rem;
+          font-family:cursive;
+          border: 0.2px solid black;
+          border-radius: 20px;
+        }
+        #span2{
+          font-size: 2rem;
+          font-family:cursive;
+        }
+
+        button{
+          margin: 10px;
+          font-size: 1.5rem;
+          font-family:cursive;
+          border: 0.5px solid black;
+          border-radius: 50px;
+}
+</style>
+<body>
+  <img id="background-img" src="./Sunset.jpg">
+
+  <br><br><br><br><br><br>
+  <center><span id="span1">Login</span></center>
+  <br>
+    <div class="parent">
+      <center>
+        <form action="./homepage.html">
+          <label style="font-weight:bold ;font-size:30px ;">E-mail</label>
+          <input style="width:2in; font-style: italic;font-family:cursive; font-size:15px;text-align: center; border:1px solid black; border-radius: 3px;" placeholder="mail id" type="email" required>
+          <label style="font-weight:bold ;font-size:30px ;">Password</label>
+          <input style="width:2in; font-style: italic;font-family:cursive; font-size:15px;text-align: center; border:1px solid black; border-radius: 3px;" placeholder="Password" type="password" required>
+<br>
+          <button>Submit</button>
+        </form>
+      </center>
+    </div>
+    <br><br>
+
+    <center>
+      <span id="span2">New to Us...?</span>
+        <form action="./signup.html">
+          <button>Creat Your Account....</button>
+        </form>
+    </center>
+
+</body>
+</html>
