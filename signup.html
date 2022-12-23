@@ -3,22 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sigup</title>
+    <title>signup</title>
+    <link rel="stylesheet" href="./signup_styles.css">
 </head>
-<style>
-    h1{
-  font-family: Trebuchet MS;
-  font-weight: bold;
-  text-align: center;
-}
-
-h1 {
-  font-size: 6rem;
-  margin-top: 30vh; 
-}
-</style>
 <body>
-    <h1>Mi Account create chesukondi</h1>
+  <div id="total_area">
+    <img id="background-img" src="./Sunset.jpg">
+    <br>
+    <center><span id="span1">Signup</span></center>
+    <br><br>
+      <div class="parent">
+        <center>
+          <form action="./homepage.html">
+            <label style="font-weight:bold ;font-size:30px ;">Your name</label>
+            <input class="inputs" placeholder="Your name" type="text" required><br>
+            <label style="font-weight:bold ;font-size:30px ;">E-mail</label>
+            <input class="inputs" placeholder="mail id" type="email" required>
+            <label style="font-weight:bold ;font-size:30px ;">Password</label>
+            <input class="inputs" placeholder="Password" type="password" required>
+  <br>
+        </center>
+      </div>
+      <br>
+  
+      <center>
+        <label style="color: white;">
+          <input type="checkbox" required>
+          By clicking these you will agree to all our terms and conditions
+        </label>
+        <br>
+
+        <button id="submit">Submit</button>
+          </form>
+      </center>
+    </div>
+
+
 </body>
 </html>
